@@ -39,6 +39,8 @@ steps:
     inputs:
       testAssemblyVer2: |
         **/bin/$(BuildConfiguration)/Xamarin.Forms.Core.UnitTests.dll
+        **/bin/$(BuildConfiguration)/Xamarin.Platform.Handlers.Tests.dll
+        **/bin/$(BuildConfiguration)/Xamarin.Forms.Xaml.UnitTests.dll
         **/bin/$(BuildConfiguration)/nunit.*
         **/bin/$(BuildConfiguration)/Nunit3.*
       searchFolder: ${{ parameters.nunitTestFolder }}
