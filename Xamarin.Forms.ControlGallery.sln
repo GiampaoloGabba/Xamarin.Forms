@@ -62,8 +62,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Core.Android.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.CustomAttributes", "Xamarin.Forms.CustomAttributes\Xamarin.Forms.CustomAttributes.csproj", "{4DCD0420-1168-4B77-86DB-6196EE4BD491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.ControlGallery.iOS", "Xamarin.Forms.ControlGallery.iOS\Xamarin.Forms.ControlGallery.iOS.csproj", "{C7131F14-274F-4B55-ACA9-E81731AD012F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forwarders", "Forwarders", "{5A2DADBC-9510-4DD1-BE58-01501F2DF65D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Platform.Android (Forwarders)", "Stubs\Xamarin.Forms.Platform.Android\Xamarin.Forms.Platform.Android (Forwarders).csproj", "{6E53FEB1-1100-46AE-8013-17BBA35CC197}"
@@ -505,33 +503,6 @@ Global
 		{4DCD0420-1168-4B77-86DB-6196EE4BD491}.Release|x64.Build.0 = Release|Any CPU
 		{4DCD0420-1168-4B77-86DB-6196EE4BD491}.Release|x86.ActiveCfg = Release|Any CPU
 		{4DCD0420-1168-4B77-86DB-6196EE4BD491}.Release|x86.Build.0 = Release|Any CPU
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|ARM.ActiveCfg = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|ARM.Build.0 = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|ARM64.ActiveCfg = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|iPhone.Build.0 = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|iPhone.Deploy.0 = Debug|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|x64.ActiveCfg = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|x64.Build.0 = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|x86.ActiveCfg = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Debug|x86.Build.0 = Debug|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|ARM.ActiveCfg = Release|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|ARM.Build.0 = Release|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|ARM64.ActiveCfg = Release|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|iPhone.ActiveCfg = Release|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|iPhone.Build.0 = Release|iPhone
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|x64.ActiveCfg = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|x64.Build.0 = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|x86.ActiveCfg = Release|iPhoneSimulator
-		{C7131F14-274F-4B55-ACA9-E81731AD012F}.Release|x86.Build.0 = Release|iPhoneSimulator
 		{6E53FEB1-1100-46AE-8013-17BBA35CC197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E53FEB1-1100-46AE-8013-17BBA35CC197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E53FEB1-1100-46AE-8013-17BBA35CC197}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -830,7 +801,6 @@ Global
 		{EADD8100-B3AE-4A31-92C4-267A64A1C6EB} = {92FFBAAC-8613-49E5-A102-5FF50AFAB092}
 		{A34EBE01-25BF-4E69-A2DC-2288DC625541} = {92FFBAAC-8613-49E5-A102-5FF50AFAB092}
 		{4DCD0420-1168-4B77-86DB-6196EE4BD491} = {92FFBAAC-8613-49E5-A102-5FF50AFAB092}
-		{C7131F14-274F-4B55-ACA9-E81731AD012F} = {AE49A966-4626-466A-857E-095F6794E27F}
 		{5A2DADBC-9510-4DD1-BE58-01501F2DF65D} = {29AC50BF-B4FB-450B-9386-0C5AD4B84226}
 		{6E53FEB1-1100-46AE-8013-17BBA35CC197} = {5A2DADBC-9510-4DD1-BE58-01501F2DF65D}
 		{39B3457F-01D8-43D0-8E84-D8C4F73CF48D} = {5A2DADBC-9510-4DD1-BE58-01501F2DF65D}
