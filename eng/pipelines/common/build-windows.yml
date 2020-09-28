@@ -34,11 +34,18 @@ steps:
     name: winbuild
     displayName: 'Build Projects For Nuget'
 
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: test
+      projects: '**/Xamarin.Platform.Handlers.UnitTests.csproj'
+      arguments: '--configuration $(BuildConfiguration)'
+
   - task: VSTest@2
     displayName: 'Unit Tests'
     inputs:
       testAssemblyVer2: |
-        **/bin/$(BuildConfiguration)/**/*.UnitTests.dll
+        **/bin/$(BuildConfiguration)/**/Xamarin.Forms.Core.UnitTests.dll
+        **/bin/$(BuildConfiguration)/**/Xamarin.Forms.Xaml.UnitTests.dll
       searchFolder: ${{ parameters.nunitTestFolder }}
       codeCoverageEnabled: true
       testRunTitle: '$(BuildConfiguration)_UnitTests'
