@@ -38,9 +38,7 @@ steps:
     displayName: 'Unit Tests'
     inputs:
       testAssemblyVer2: |
-        **/bin/$(BuildConfiguration)/Xamarin.Forms.Core.UnitTests.dll
-        **/bin/$(BuildConfiguration)/**/Xamarin.Platform.Handlers.Tests.dll
-        **/bin/$(BuildConfiguration)/**/Xamarin.Forms.Xaml.UnitTests.dll
+        **/bin/$(BuildConfiguration)/**/*.UnitTests.dll
       searchFolder: ${{ parameters.nunitTestFolder }}
       codeCoverageEnabled: true
       testRunTitle: '$(BuildConfiguration)_UnitTests'
